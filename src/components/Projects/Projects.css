@@ -1,0 +1,29 @@
+.projects-section {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 5rem;
+  height: 100vh;
+  max-width: 1200px;
+}
+
+.projects-title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.projects-text {
+  color: #6a7b76;
+  font-size: 5rem;
+  font-weight: 800;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  bottom: 0;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

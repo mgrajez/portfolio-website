@@ -1,0 +1,54 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 12% 44% 44%;
+  gap: 5rem;
+  height: 100vh;
+  max-width: 1200px;
+}
+
+.about-title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.title-text {
+  color: #6a7b76;
+  font-size: 5rem;
+  font-weight: 800;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  bottom: 0;
+}
+
+.about-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 2rem; */
+  /* text-align: justify; */
+}
+
+.description-text {
+  text-wrap: wrap;
+  font-size: 1.2rem;
+  max-width: 450px;
+}
+
+.tech-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.computer-image {
+  width: 400px;
+  height: auto;
+}
+
+.tech-text {
+  color: #6a7b76;
+  font-size: 1.7rem;
+  font-weight: 500;
+}

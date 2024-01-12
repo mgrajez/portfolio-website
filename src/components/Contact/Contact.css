@@ -1,0 +1,9 @@
+.contact-title {
+  color: #6a7b76;
+  font-size: 5rem;
+  font-weight: 800;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  bottom: 0;
+  margin-top: 12rem;
+}
