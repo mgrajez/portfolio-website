@@ -1,6 +1,8 @@
 import "./Contact.css";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import linkedinIcon from "./../../assets/linkedin-icon.png";
+import githubIcon from "./../../assets/github-icon.png";
 
 function Contact() {
   const form = useRef();
@@ -67,6 +69,14 @@ function Contact() {
             </button>
           </form>
           {message && <p className="success-message">{message}</p>}
+          <div className="links">
+            <a href="https://linkedin.com/in/monika-grajez" target="_blank">
+              <img src={linkedinIcon} alt="LinkedIn icon" className="link" />
+            </a>
+            <a href="https://github.com/mgrajez" target="_blank">
+              <img src={githubIcon} alt="Github icon" className="link" />
+            </a>
+          </div>
         </div>
       </section>
     </>
