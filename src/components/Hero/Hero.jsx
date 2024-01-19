@@ -6,7 +6,7 @@ import scrollIcon from "./../../assets/scroll-icon.png";
 function Hero() {
   return (
     <>
-      <section className="container-hero">
+      <section className="container-hero" id="home">
         <img className="hero-image" src={hero} alt="hero image" />
         <div className="content">
           <h1 className="title">

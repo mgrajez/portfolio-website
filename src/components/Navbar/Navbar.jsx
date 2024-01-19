@@ -20,15 +20,52 @@ function Navbar() {
             <img className="logo" src={logo} alt="logo" />
           </Link>
           <div className="nav-links">
-            <a href="About" className="nav-link">
+            <a
+              href="#home"
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link"
+            >
               About
             </a>
-            /
-            <a href="Projects" className="nav-link">
+            <a
+              href="#projects"
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link"
+            >
               Projects
             </a>
-            /
-            <a href="Contact" className="nav-link">
+            <a
+              href="#contact"
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link"
+            >
               Contact
             </a>
           </div>
@@ -41,6 +78,11 @@ function Navbar() {
           </div>
           {menuOpen && (
             <div className="mobile-menu">
+              <div className="mobile-menu-item">
+                <a href="Home" className="nav-link">
+                  Home
+                </a>
+              </div>
               <div className="mobile-menu-item">
                 <a href="About" className="nav-link">
                   About

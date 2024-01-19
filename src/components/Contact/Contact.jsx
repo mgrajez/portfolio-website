@@ -36,7 +36,7 @@ function Contact() {
 
   return (
     <>
-      <section className="contactPage">
+      <section className="contactPage" id="contact">
         <div id="contact">
           <h1 className="contactPageTitle">Contact</h1>
           <span className="contactDesc">

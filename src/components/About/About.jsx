@@ -4,7 +4,7 @@ import computer from "./../../assets/computer.png";
 function About() {
   return (
     <>
-      <section className="about-section">
+      <section className="about-section" id="about">
         <div className="about-title">
           <h1 className="title-text">About</h1>
         </div>
