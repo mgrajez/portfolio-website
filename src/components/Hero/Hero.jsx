@@ -14,14 +14,14 @@ function Hero() {
           </h1>
           <p className="description">
             I am a Front-end Web Developer <br /> and Web Designer based in
-            Paris, France
+            Paris
           </p>
           <button className="contact-button">Get in touch</button>
         </div>
+        <div className="scroll-icon">
+          <img src={scrollIcon} alt="scroll icon" />
+        </div>
       </section>
-      <div className="scroll-icon">
-        <img src={scrollIcon} alt="scroll icon" />
-      </div>
     </>
   );
 }
