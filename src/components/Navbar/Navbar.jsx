@@ -31,20 +31,20 @@ function Navbar() {
         </Link>
         <div className="nav-links">
           <a href="#home" className="nav-link">
-            Home
+            HOME
           </a>
           <a href="#about" className="nav-link" onClick={handleMenuItemClick}>
-            About
+            ABOUT
           </a>
           <a
             href="#projects"
             className="nav-link"
             onClick={handleMenuItemClick}
           >
-            Projects
+            PROJECTS
           </a>
           <a href="#contact" className="nav-link" onClick={handleMenuItemClick}>
-            Contact
+            CONTACT
           </a>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
@@ -62,7 +62,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={handleMenuItemClick}
               >
-                Home
+                HOME
               </a>
             </div>
             <div className="mobile-menu-item">
@@ -71,7 +71,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={handleMenuItemClick}
               >
-                About
+                ABOUT
               </a>
             </div>
             <div className="mobile-menu-item">
@@ -80,7 +80,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={handleMenuItemClick}
               >
-                Projects
+                PPROJECTS
               </a>
             </div>
             <div className="mobile-menu-item">
@@ -89,7 +89,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={handleMenuItemClick}
               >
-                Contact
+                CONTACT
               </a>
             </div>
           </div>

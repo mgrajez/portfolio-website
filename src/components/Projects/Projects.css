@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 .projects-text {
@@ -30,7 +31,7 @@
 
 .projects-subtitle {
   padding: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -76,4 +77,12 @@
   justify-content: center;
   gap: 3rem;
   margin: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+  .project {
+    flex-direction: column;
+    margin-top: 8rem;
+    margin: 1rem;
+  }
 }
