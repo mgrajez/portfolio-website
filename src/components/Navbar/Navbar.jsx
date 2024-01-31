@@ -80,7 +80,7 @@ function Navbar() {
                 className="nav-link"
                 onClick={handleMenuItemClick}
               >
-                PPROJECTS
+                PROJECTS
               </a>
             </div>
             <div className="mobile-menu-item">
