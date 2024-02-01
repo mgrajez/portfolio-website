@@ -49,17 +49,23 @@
 }
 
 .submitBtn {
-  background-color: white;
-  border: none;
-  padding: 0.75rem 3.5rem;
-  margin: 2rem;
-  border-radius: 0.7rem;
-  font-family: Montserrat, sans-serif;
-  font-size: 0.9rem;
-  border: 1px solid #6a7b76;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
   color: #6a7b76;
-  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  border: 2px solid #6a7b76;
+  transition: 0.3s;
+  box-shadow: 4px 4px 0px 0px rgba(106, 123, 118, 1);
+  background-color: #eee;
+  cursor: pointer;
+  margin: 2rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -83,6 +89,37 @@
   object-fit: cover;
   height: 3rem;
   width: 3rem;
-  margin: 3rem 0.5rem 0;
+  margin: 2.5rem 0.5rem 0;
   cursor: pointer;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1023px) {
+  .contactPageTitle {
+    font-size: 3.7rem;
+    margin-bottom: 0.9rem;
+  }
+  .contactDesc {
+    padding: 1rem;
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contactPageTitle {
+    font-size: 3.5rem;
+    margin-bottom: 0.9rem;
+  }
+  .contactDesc {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contactPageTitle {
+    font-size: 3.1rem;
+    margin-bottom: 0.9rem;
+  }
+  .contactDesc {
+    padding: 1rem;
+    font-size: 1rem;
+  }
 }

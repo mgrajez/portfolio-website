@@ -84,6 +84,8 @@
   padding: 15px;
 }
 
+/* RESPONSIVENESS */
+
 @media screen and (max-width: 720px) {
   .navbar {
     padding: 15px 50px;
@@ -103,5 +105,11 @@
   .logo {
     width: 90px;
     height: auto;
+  }
+}
+
+@media screen and (min-width: 1445px) {
+  .navbar {
+    padding: 1rem 14rem;
   }
 }

@@ -18,8 +18,8 @@ function About() {
             eventually took over. In 2023, I took the opportunity to undergo a{" "}
             <span className="text-highlight">career transition</span> and
             immerse myself in the exciting world of{" "}
-            <span className="text-highlight">web development</span>. I loved
-            this new challenge!
+            <span className="text-highlight">web development</span>. I love this
+            new challenge!
           </p>
           <p className="description-text">
             <span className="text-highlight">
@@ -59,7 +59,7 @@ function About() {
               <p className="tech-icon">MongoDB</p>
               <p className="tech-icon">Node JS</p>
               <p className="tech-icon">Git</p>
-              <p className="tech-icon">WordPress</p>
+              <p className="tech-icon">No Code</p>
               <p className="tech-icon">Figma</p>
             </div>
           </div>
