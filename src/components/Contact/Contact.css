@@ -13,7 +13,7 @@
 .contactPageTitle {
   font-size: 4rem;
   margin-bottom: 1rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   color: #6a7b76;
   font-weight: 800;
 }
@@ -90,7 +90,7 @@
   object-fit: cover;
   height: 3rem;
   width: 3rem;
-  margin: 2.5rem 0.5rem 0;
+  margin: 2.5rem 0.5rem 2rem;
   cursor: pointer;
 }
 
