@@ -72,11 +72,7 @@ function Navbar() {
         {menuOpen && (
           <div className="mobile-menu">
             <div className="mobile-menu-item">
-              <a
-                href="#home"
-                className="nav-link"
-                onClick={handleMenuItemClick}
-              >
+              <a className="nav-link" onClick={scrollToTop}>
                 HOME
               </a>
             </div>

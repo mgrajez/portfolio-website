@@ -57,6 +57,7 @@
   line-height: 1.8rem;
   text-transform: uppercase;
   color: #6a7b76;
+  white-space: nowrap;
 }
 
 .description {
@@ -170,7 +171,7 @@
 @media screen and (max-width: 799px) {
   .container-hero {
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 5rem;
     height: 100vh;
     width: 100vw;
   }
