@@ -179,6 +179,10 @@
   .tech-section {
     flex-direction: column;
   }
+  .about-image {
+    width: 300px;
+    height: auto;
+  }
   .tech-icons {
     grid-template-columns: 130px 130px 130px;
     grid-template-rows: 35px 35px 35px;
@@ -208,6 +212,10 @@
   }
   .tech-section {
     flex-direction: column;
+  }
+  .about-image {
+    width: 350px;
+    height: auto;
   }
   .tech-text {
     font-size: 1.1rem;
