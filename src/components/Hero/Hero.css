@@ -41,27 +41,37 @@
   color: #6a7b76;
 }
 
+.job-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: #6a7b76;
+}
+
 .description {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 2rem;
-  line-height: 1.8rem;
+  line-height: 1.6rem;
 }
 
 .contact-button {
   text-decoration: none;
   background-color: transparent;
   color: #000000;
-  border-radius: 8px;
-  border: 1px solid #000000;
+  border-radius: 0.6rem;
+  border: 1.5px solid #000000;
   font-family: Montserrat;
   font-size: 1rem;
   padding: 10px 2rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact-button:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
 }
 
 .scroll-icon {
@@ -72,6 +82,7 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  cursor: pointer;
 }
 
 .scroll-icon img {
@@ -111,16 +122,19 @@
     width: 40vw;
     min-width: 350px;
   }
+
   .title {
     font-size: 2.3rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
+    text-align: center;
   }
   .description {
     font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 2rem;
     line-height: 1.6rem;
+    text-align: center;
   }
 }
 
@@ -144,5 +158,8 @@
     height: auto;
     width: 40vw;
     min-width: 450px;
+  }
+  .description {
+    text-align: center;
   }
 }

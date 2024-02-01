@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "./../../assets/big-logo.png";
 import menuIcon from "./../../assets/menu-icon.png";
@@ -23,6 +23,21 @@ function Navbar() {
     });
   };
 
+  useEffect(() => {
+    const closeMenuOnOutsideClick = (e) => {
+      const navbar = document.getElementById("navbar");
+      if (navbar && !navbar.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    };
+
+    document.body.addEventListener("click", closeMenuOnOutsideClick);
+
+    return () => {
+      document.body.removeEventListener("click", closeMenuOnOutsideClick);
+    };
+  }, []);
+
   return (
     <div className="container-navbar" id="navbar">
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
@@ -30,9 +45,9 @@ function Navbar() {
           <img className="logo" src={logo} alt="logo" />
         </Link>
         <div className="nav-links">
-          <a href="#home" className="nav-link">
+          <Link to="/" onClick={scrollToTop} className="nav-link">
             HOME
-          </a>
+          </Link>
           <a href="#about" className="nav-link" onClick={handleMenuItemClick}>
             ABOUT
           </a>
