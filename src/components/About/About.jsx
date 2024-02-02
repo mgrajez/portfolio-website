@@ -33,7 +33,8 @@ function About() {
             <span className="text-highlight">
               irresistible love for making things
             </span>
-            .
+            . Being organised and methodical is my secret sauce for getting
+            things done.
           </p>
           <p className="description-text">
             When I am not coding, you will often find me{" "}
