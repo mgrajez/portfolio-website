@@ -1,4 +1,4 @@
-.contactPage {
+.contact-page {
   min-height: calc(100vh - 6rem);
   width: 100vw;
   max-width: 60rem;
@@ -10,7 +10,9 @@
   justify-content: center;
 }
 
-.contactPageTitle {
+/* TITLE AND SUBTITLE STYLING */
+
+.contact-page-title {
   font-size: 4rem;
   margin-bottom: 1rem;
   margin-top: 7rem;
@@ -18,13 +20,15 @@
   font-weight: 800;
 }
 
-.contactDesc {
+.contact-desc {
   padding: 1rem;
   font-size: 1.1rem;
   font-weight: 300;
 }
 
-.contactForm {
+/* FORM STYLING */
+
+.contact-form {
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -48,6 +52,8 @@
   background: white;
   font-family: Montserrat, sans-serif;
 }
+
+/* BUTTON STYLING */
 
 .submitBtn {
   display: flex;
@@ -74,10 +80,14 @@
   transform: scale(1.05);
 }
 
+/* Message appearing after Submit button is clicked */
+
 .success-message {
   color: black;
   font-size: 1rem;
 }
+
+/* LINKEDIN AND GITHUB ICON STYLING */
 
 .links {
   display: flex;
@@ -93,6 +103,8 @@
   margin: 2.5rem 0.5rem 2rem;
   cursor: pointer;
 }
+
+/* RESPONSIVENESS */
 
 @media screen and (min-width: 721px) and (max-width: 1023px) {
   .contactPageTitle {

@@ -9,6 +9,8 @@
   justify-content: center;
 }
 
+/* TITLE AND SUBTITLE STYLING */
+
 .about-title {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,8 @@
   font-size: 1.3rem;
   font-weight: 300;
 }
+
+/* MAIN 'ABOUT ME' TEXT */
 
 .about-description {
   display: flex;
@@ -54,6 +58,8 @@
   color: #6a7b76;
   font-weight: 700;
 }
+
+/* 'TECHNOLOGIES I AM USING' SECTION */
 
 .tech-section {
   display: flex;

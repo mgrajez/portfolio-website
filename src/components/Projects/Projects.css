@@ -9,6 +9,8 @@
   justify-content: center;
 }
 
+/* TITLE AND SUBTITLE STYLING */
+
 .projects-title {
   display: flex;
   flex-direction: column;
@@ -29,6 +31,8 @@
   font-size: 1.3rem;
   font-weight: 300;
 }
+
+/* MAIN PROJECTS CONTENT */
 
 .project-details-container {
   display: grid;
@@ -95,6 +99,8 @@
   color: #6a7b76;
   font-weight: 700;
 }
+
+/* BUTTON STYLING */
 
 .button-container {
   display: flex;

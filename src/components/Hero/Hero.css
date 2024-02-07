@@ -28,6 +28,8 @@
   margin: 0;
 }
 
+/* ALL TEXT CONTENT TO THE RIGHT OF THE IMAGE */
+
 .content {
   display: flex;
   flex-direction: column;
@@ -90,6 +92,8 @@
 .contact-button:hover {
   transform: scale(1.05);
 }
+
+/* ANIMATED SLIDER BUTTON GOING TO THE NEXT SECTION */
 
 .scroll-icon {
   position: absolute;

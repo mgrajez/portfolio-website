@@ -36,13 +36,13 @@ function Contact() {
 
   return (
     <>
-      <section className="contactPage" id="contact">
+      <section className="contact-page" id="contact">
         <div id="contact">
-          <h1 className="contactPageTitle">Contact</h1>
-          <span className="contactDesc">
+          <h1 className="contact-page-title">Contact</h1>
+          <span className="contact-desc">
             Please fill out the form below with your request.
           </span>
-          <form className="contactForm" ref={form} onSubmit={sendEmail}>
+          <form className="contact-form" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               className="name"
