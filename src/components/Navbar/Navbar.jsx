@@ -40,7 +40,8 @@ function Navbar() {
 
   return (
     <div className="container-navbar" id="navbar">
-      <nav className={`navbar ${menuOpen ? "open" : ""}`}>
+      <p>Site under construction</p>
+      {/* <nav className={`navbar ${menuOpen ? "open" : ""}`}>
         <Link to="/" onClick={scrollToTop}>
           <img className="logo" src={logo} alt="logo" />
         </Link>
@@ -105,7 +106,7 @@ function Navbar() {
             </div>
           </div>
         )}
-      </nav>
+      </nav> */}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import aboutImage from "./../../assets/about-image.png";
 function About() {
   return (
     <>
-      <section className="about-section" id="about">
+      {/* <section className="about-section" id="about">
         <div className="about-title">
           <h1 className="title-text">About</h1>
           <span className="about-subtitle">Get to know me a bit better.</span>
@@ -65,7 +65,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
