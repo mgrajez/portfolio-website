@@ -6,7 +6,6 @@ import jumpyImage from "./../../assets/jumpy-image.png";
 function Projects() {
   return (
     <>
-      {/* <section></section>
       <section className="projects-section" id="projects">
         <div className="projects-title">
           <h1 className="projects-main-title">Projects</h1>
@@ -117,7 +116,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 }

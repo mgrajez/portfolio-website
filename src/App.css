@@ -3,13 +3,13 @@
 }
 
 body {
-  /* background: linear-gradient(
+  background: linear-gradient(
       90deg,
       rgba(255, 255, 255, 1) 0%,
       rgba(228, 226, 221, 1) 35%,
       rgba(228, 226, 221, 1) 100%
     )
-    no-repeat; */
+    no-repeat;
   overflow: hidden;
   overflow-y: scroll;
 }

@@ -7,7 +7,7 @@ import scrollIcon from "./../../assets/scroll-icon.png";
 function Hero() {
   return (
     <>
-      {/* <section className="container-hero" id="home">
+      <section className="container-hero" id="home">
         <div className="content-container">
           <img className="hero-image" src={heroImage} alt="hero image" />
           <div className="content">
@@ -30,7 +30,7 @@ function Hero() {
             <img src={scrollIcon} alt="scroll icon" />
           </div>
         </Link>
-      </section> */}
+      </section>
     </>
   );
 }
